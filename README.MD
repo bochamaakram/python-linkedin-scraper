@@ -39,21 +39,14 @@ A Python web scraper that extracts job listings from LinkedIn and saves the info
    cd linkedin-job-scraper
 
 2. **Install required packages**:
+- **For Windows**:
    ```bash
-    pip install -r requirements.txt
-
-3. **Required dependencies**:
-    ```text
-    requests>=2.28.0
-    beautifulsoup4>=4.11.0
-    pandas>=1.5.0
-    openpyxl>=3.0.0
-    lxml>=4.9.0
-    Usage
-    Basic Usage
-    Run the script directly:
+    pip install requests beautifulsoup4 pandas openpyxl lxml
+- **For macOS/Linux**:
+   ```bash
+    pip install requests beautifulsoup4 pandas openpyxl lxml
 ##
-## run scraper:
+### run scraper:
     python main.py
 **The script will prompt you for**:
 
